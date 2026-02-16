@@ -1,0 +1,79 @@
+export type ProjectLink = {
+  label: string
+  url: string
+}
+
+export type ProjectMetrics = {
+  label: string
+  value: string
+}
+
+export const projects = [
+  {
+    id: 'flow-shop',
+    titleKey: 'projects.flowShop.title',
+    shortKey: 'projects.flowShop.short',
+    roleKey: 'projects.flowShop.role',
+    stack: ['projects.stack.python', 'projects.stack.aiogram', 'projects.stack.sqlite', 'projects.stack.googleSheetsApi'],
+    links: [],
+    metrics: [
+      { label: 'projects.flowShop.metrics.users', value: '400+' },
+      { label: 'projects.flowShop.metrics.orders', value: '200+' },
+      { label: 'projects.flowShop.metrics.statuses', value: '7' }
+    ]
+  },
+  {
+    id: 'hub-miniapp',
+    titleKey: 'projects.hubMiniapp.title',
+    shortKey: 'projects.hubMiniapp.short',
+    roleKey: 'projects.hubMiniapp.role',
+    stack: ['projects.stack.react', 'projects.stack.vite', 'projects.stack.nodejs', 'projects.stack.postgresql', 'projects.stack.telegraf', 'projects.stack.tailwind', 'projects.stack.docker'],
+    links: [{ label: 'projects.hubMiniapp.linkApp', url: 'https://hub.expansium.com' }],
+    metrics: [
+      { label: 'projects.hubMiniapp.metrics.screens', value: '15+' },
+      { label: 'projects.hubMiniapp.metrics.modules', value: '12+' }
+    ]
+  },
+  {
+    id: 'autoking',
+    titleKey: 'projects.autoking.title',
+    shortKey: 'projects.autoking.short',
+    roleKey: 'projects.autoking.role',
+    stack: ['projects.stack.python', 'projects.stack.aiogram', 'projects.stack.sqlite', 'projects.stack.googleSheetsApi', 'projects.stack.googleCalendarApi', 'projects.stack.smsRu'],
+    links: [],
+    metrics: [
+      { label: 'projects.autoking.metrics.categories', value: '8+' },
+      { label: 'projects.autoking.metrics.integrations', value: '3' },
+      { label: 'projects.autoking.metrics.reminders', value: '2' }
+    ]
+  },
+  {
+    id: 'finance-manager',
+    titleKey: 'projects.financeManager.title',
+    shortKey: 'projects.financeManager.short',
+    roleKey: 'projects.financeManager.role',
+    stack: ['projects.stack.react', 'projects.stack.vite', 'projects.stack.typescript', 'projects.stack.tailwind', 'projects.stack.python', 'projects.stack.aiogram', 'projects.stack.fastapi', 'projects.stack.sqlalchemy', 'projects.stack.postgresql', 'projects.stack.recharts'],
+    links: [{ label: 'projects.financeManager.linkBot', url: 'https://t.me/finanstrackerbot' }],
+    metrics: [
+      { label: 'projects.financeManager.metrics.screens', value: '13+' },
+      { label: 'projects.financeManager.metrics.modules', value: '10+' }
+    ]
+  }
+] as const
+
+export type ProjectId = (typeof projects)[number]['id']
+
+export type Project = {
+  id: ProjectId
+  titleKey: string
+  shortKey: string
+  roleKey: string
+  stack: readonly string[]
+  links: readonly ProjectLink[]
+  metrics?: readonly ProjectMetrics[]
+  cover?: string
+}
+
+export function getProjectById(id: ProjectId): Project | undefined {
+  return projects.find((p) => p.id === id) as Project | undefined
+}

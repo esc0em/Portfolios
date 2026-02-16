@@ -1,0 +1,134 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "services": "Services",
+    "contact": "Contact",
+    "menu": "Menu"
+  },
+  "hero": {
+    "title": "Telegram Bots & Mini Apps Development",
+    "subtitle": "Telegram Bots & Mini Apps",
+    "cta": "Get in touch"
+  },
+  "sections": {
+    "about": {
+      "title": "About",
+      "intro": "Telegram solutions developer: bots on any stack and Mini Apps. I help automate communication, content delivery and interactive flows inside Telegram.",
+      "paragraphs": [
+        "I work with Telegram Bot API and Mini Apps (Web App): from simple notification bots to catalogs, ticketing and integrations with your infrastructure. Stack: Node.js, Python, React, TypeScript; I adapt to project requirements when needed.",
+        "Approach: clear time estimates, solid implementation, and optional support after launch. Happy to discuss your task and suggest options that fit your budget and timeline.",
+        "If you need to automate customer communication, deliver content, or build an interactive app inside Telegram — get in touch and we can go through the task and implementation options."
+      ],
+      "highlights": [
+        "Bots on Node.js, Python or any suitable stack",
+        "Mini Apps with React and TypeScript",
+        "Integrations with CRM, databases and external APIs",
+        "Support and improvements for existing bots"
+      ]
+    },
+    "skills": {
+      "title": "Skills",
+      "items": ["Telegram Bot API", "Telegram Mini Apps (Web App)", "Node.js / Python", "React", "TypeScript", "REST API", "Databases"]
+    },
+    "projects": {
+      "title": "Projects",
+      "more": "And many more"
+    },
+    "services": {
+      "title": "Services",
+      "items": ["Telegram bots development turnkey", "Telegram Mini Apps (web apps inside Telegram)", "Integration with CRM and external APIs", "Support and improvements for existing bots"]
+    },
+    "contact": {
+      "title": "Contact",
+      "telegram": "Telegram",
+      "email": "Email"
+    }
+  },
+  "contact": {
+    "telegramHandle": "@esc0em",
+    "telegramUrl": "https://t.me/esc0em",
+    "email": "adressworks@gmail.com"
+  },
+  "common": {
+    "copy": "Copy",
+    "copied": "Copied",
+    "close": "Close",
+    "backToTop": "Back to top"
+  },
+  "footer": {
+    "copyright": "Nikita Chulanov © 2022–2026"
+  },
+  "projectModal": {
+    "stack": "Stack",
+    "role": "Role",
+    "links": "Links",
+    "case": "Case",
+    "metrics": "Metrics"
+  },
+  "projects": {
+    "stack": {
+      "nodejs": "Node.js",
+      "telegraf": "Telegraf",
+      "postgresql": "PostgreSQL",
+      "react": "React",
+      "typescript": "TypeScript",
+      "vite": "Vite",
+      "python": "Python",
+      "aiogram": "aiogram",
+      "redis": "Redis",
+      "sqlite": "SQLite",
+      "googleSheetsApi": "Google Sheets API",
+      "gspread": "gspread",
+      "tailwind": "Tailwind CSS",
+      "docker": "Docker",
+      "googleCalendarApi": "Google Calendar API",
+      "smsRu": "SMS.Ru",
+      "fastapi": "FastAPI",
+      "sqlalchemy": "SQLAlchemy",
+      "recharts": "Recharts"
+    },
+    "flowShop": {
+      "title": "Flow — E-commerce Store",
+      "short": "Telegram bot for an e-commerce store with price calculation for goods from China, order tracking, loyalty program, and keyboard modding services",
+      "role": "Full-stack developer",
+      "metrics": {
+        "users": "Satisfied customers",
+        "orders": "Reviews",
+        "statuses": "Order statuses"
+      }
+    },
+    "hubMiniapp": {
+      "title": "Hub — Telegram Mini App",
+      "short": "Telegram Mini App for manufacturers, distributors and dealers: AI advisor, networking, consultations, events calendar, knowledge base, admin panel.",
+      "role": "Full-stack developer",
+      "linkApp": "App",
+      "metrics": {
+        "screens": "Screens",
+        "modules": "Modules"
+      }
+    },
+    "autoking": {
+      "title": "AUTOKING — Detailing Studio Bot",
+      "short": "Telegram bot for booking detailing services: choose service, date and time, catalog with price lists by vehicle class, SMS reminders, integration with Google Calendar and Sheets. Button-based admin panel.",
+      "role": "Full-stack developer",
+      "metrics": {
+        "categories": "Service categories",
+        "integrations": "Integrations",
+        "reminders": "SMS reminders"
+      }
+    },
+    "financeManager": {
+      "title": "Finance Manager — MiniApp",
+      "linkBot": "Bot @finanstrackerbot",
+      "short": "Telegram bot for personal finance with MiniApp: income and expenses, categories, goals, work shifts, category budgets, subscriptions, debts, analytics and calendar. Backend on FastAPI and aiogram, frontend on React and Recharts.",
+      "role": "Full-stack developer",
+      "metrics": {
+        "screens": "Screens",
+        "modules": "Modules"
+      }
+    }
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "nav": {
+    "home": "Главная",
+    "about": "Обо мне",
+    "skills": "Навыки",
+    "projects": "Проекты",
+    "services": "Услуги",
+    "contact": "Контакты",
+    "menu": "Меню"
+  },
+  "hero": {
+    "title": "Разработка Telegram ботов и Mini Apps",
+    "subtitle": "Telegram Bots & Mini Apps",
+    "cta": "Связаться"
+  },
+  "sections": {
+    "about": {
+      "title": "Обо мне",
+      "intro": "Разработчик Telegram-решений: боты на любой стек и Mini Apps. Помогаю автоматизировать коммуникацию, доставку контента и интерактивные сценарии внутри Telegram.",
+      "paragraphs": [
+        "Работаю с Telegram Bot API и Mini Apps (Web App): от простых ботов-уведомлений до каталогов, тикетов и интеграций с вашей инфраструктурой. Стек — Node.js, Python, React, TypeScript; при необходимости подстраиваюсь под требования проекта.",
+        "Подход: прозрачная оценка сроков, аккуратная реализация и возможность поддержки после запуска. Готов обсудить задачу и предложить вариант под ваш бюджет и сроки.",
+        "Если нужно автоматизировать общение с клиентами, доставлять контент или сделать интерактивное приложение внутри Telegram — напишите, разберём задачу и варианты реализации."
+      ],
+      "highlights": [
+        "Боты на Node.js, Python и любом подходящем стеке",
+        "Mini Apps на React и TypeScript",
+        "Интеграции с CRM, базами данных и внешними API",
+        "Поддержка и доработка существующих ботов"
+      ]
+    },
+    "skills": {
+      "title": "Навыки",
+      "items": ["Telegram Bot API", "Telegram Mini Apps (Web App)", "Node.js / Python", "React", "TypeScript", "REST API", "Базы данных"]
+    },
+    "projects": {
+      "title": "Проекты",
+      "more": "И многие другие"
+    },
+    "services": {
+      "title": "Услуги",
+      "items": ["Разработка Telegram-ботов под ключ", "Telegram Mini Apps (веб-приложения внутри Telegram)", "Интеграция с CRM и внешними API", "Поддержка и доработка существующих ботов"]
+    },
+    "contact": {
+      "title": "Контакты",
+      "telegram": "Telegram",
+      "email": "Email"
+    }
+  },
+  "contact": {
+    "telegramHandle": "@esc0em",
+    "telegramUrl": "https://t.me/esc0em",
+    "email": "adressworks@gmail.com"
+  },
+  "common": {
+    "copy": "Копировать",
+    "copied": "Скопировано",
+    "close": "Закрыть",
+    "backToTop": "Наверх"
+  },
+  "footer": {
+    "copyright": "Никита Чуланов © 2022–2026"
+  },
+  "projectModal": {
+    "stack": "Стек",
+    "role": "Роль",
+    "links": "Ссылки",
+    "case": "Кейс",
+    "metrics": "Метрики"
+  },
+  "projects": {
+    "stack": {
+      "nodejs": "Node.js",
+      "telegraf": "Telegraf",
+      "postgresql": "PostgreSQL",
+      "react": "React",
+      "typescript": "TypeScript",
+      "vite": "Vite",
+      "python": "Python",
+      "aiogram": "aiogram",
+      "redis": "Redis",
+      "sqlite": "SQLite",
+      "googleSheetsApi": "Google Sheets API",
+      "gspread": "gspread",
+      "tailwind": "Tailwind CSS",
+      "docker": "Docker",
+      "googleCalendarApi": "Google Calendar API",
+      "smsRu": "SMS.Ru",
+      "fastapi": "FastAPI",
+      "sqlalchemy": "SQLAlchemy",
+      "recharts": "Recharts"
+    },
+    "flowShop": {
+      "title": "Flow — Интернет-магазин",
+      "short": "Telegram бот для интернет-магазина с расчетом стоимости товаров из Китая, отслеживанием заказов, программой лояльности и услугами моддинга клавиатур",
+      "role": "Full-stack разработчик",
+      "metrics": {
+        "users": "Довольных клиентов",
+        "orders": "Отзывов",
+        "statuses": "Статусов заказов"
+      }
+    },
+    "hubMiniapp": {
+      "title": "Хаб — Telegram Mini App",
+      "short": "Telegram Mini App для производителей, дистрибьюторов и дилеров: AI-советник, нетворкинг, консультации, календарь событий, база знаний, админ-панель.",
+      "role": "Full-stack разработчик",
+      "linkApp": "Приложение",
+      "metrics": {
+        "screens": "Экранов",
+        "modules": "Модулей"
+      }
+    },
+    "autoking": {
+      "title": "AUTOKING — бот студии детейлинга",
+      "short": "Telegram-бот для записи на услуги детейлинга: выбор услуги, даты и времени, каталог с прайсами по классам авто, напоминания по SMS, интеграция с Google Calendar и таблицами. Админ-панель на кнопках.",
+      "role": "Full-stack разработчик",
+      "metrics": {
+        "categories": "Категорий услуг",
+        "integrations": "Интеграций",
+        "reminders": "Напоминаний (SMS)"
+      }
+    },
+    "financeManager": {
+      "title": "Финансовый менеджер — MiniApp",
+      "linkBot": "Бот @finanstrackerbot",
+      "short": "Telegram бот для учёта финансов с MiniApp: доходы/расходы, категории, цели, смены, бюджеты по категориям, подписки, долги, аналитика и календарь. Backend на FastAPI и aiogram, фронт на React и Recharts.",
+      "role": "Full-stack разработчик",
+      "metrics": {
+        "screens": "Экранов",
+        "modules": "Модулей"
+      }
+    }
+  }
+}
