@@ -39,3 +39,37 @@
     transition: none;
   }
 }
+
+/* Logo "Terminal Pulse" */
+@keyframes cursor-blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.logo-cursor {
+  animation: cursor-blink 1s step-end infinite;
+}
+
+.logo-container {
+  background: linear-gradient(135deg, #722F37, #B8432A);
+  transition: box-shadow 0.3s ease;
+}
+.logo-container:hover {
+  box-shadow: 0 0 12px rgba(184, 67, 42, 0.5), 0 0 4px rgba(114, 47, 55, 0.3);
+}
+
+.gradient-zero {
+  background: linear-gradient(135deg, #722F37, #B8432A);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .logo-cursor {
+    animation: none;
+  }
+  .logo-container {
+    transition: none;
+  }
+}

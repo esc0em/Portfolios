@@ -45,12 +45,13 @@ export function Header() {
             onClick={(e) => handleNavClick(e, 'hero')}
             className={`flex items-center gap-2 text-lg font-semibold text-gray-900 ${focusVisibleNav}`}
           >
-            <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-accent text-white" aria-hidden>
+            <span className="logo-container flex h-8 w-8 shrink-0 items-center justify-center rounded-lg text-white" aria-hidden>
               <svg viewBox="0 0 24 24" className="h-4 w-4" fill="currentColor" aria-hidden>
-                <path d="M4 4h4v16H4V4zm6 0h10v2H10V4zm0 9h7v2h-7v-2zm0-4.5h10v2H10v-2z" />
+                <path d="M5 8l4-4 1.5 1.5L7 9l3.5 3.5L9 14z" />
+                <rect className="logo-cursor" x="13" y="6" width="2.5" height="12" rx="0.5" />
               </svg>
             </span>
-            <span>esc0em</span>
+            <span>esc<span className="gradient-zero">0</span>em</span>
           </a>
 
           <nav className="hidden md:flex items-center gap-1" aria-label="Main">

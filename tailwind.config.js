@@ -5,6 +5,7 @@ export default {
     extend: {
       colors: {
         accent: '#722F37',
+        'accent-warm': '#B8432A',
         mahogany: '#722F37',
       },
       fontFamily: {
