@@ -23,18 +23,6 @@ export const projects = [
     ]
   },
   {
-    id: 'hub-miniapp',
-    titleKey: 'projects.hubMiniapp.title',
-    shortKey: 'projects.hubMiniapp.short',
-    roleKey: 'projects.hubMiniapp.role',
-    stack: ['projects.stack.react', 'projects.stack.vite', 'projects.stack.nodejs', 'projects.stack.postgresql', 'projects.stack.telegraf', 'projects.stack.tailwind', 'projects.stack.docker'],
-    links: [{ label: 'projects.hubMiniapp.linkApp', url: 'https://hub.expansium.com' }],
-    metrics: [
-      { label: 'projects.hubMiniapp.metrics.screens', value: '15+' },
-      { label: 'projects.hubMiniapp.metrics.modules', value: '12+' }
-    ]
-  },
-  {
     id: 'autoking',
     titleKey: 'projects.autoking.title',
     shortKey: 'projects.autoking.short',
