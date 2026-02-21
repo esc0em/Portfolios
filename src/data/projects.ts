@@ -23,6 +23,19 @@ export const projects = [
     ]
   },
   {
+    id: 'active-realty-bot',
+    titleKey: 'projects.activeRealtyBot.title',
+    shortKey: 'projects.activeRealtyBot.short',
+    roleKey: 'projects.activeRealtyBot.role',
+    stack: ['projects.stack.python', 'projects.stack.aiogram', 'projects.stack.sqlite', 'projects.stack.openai'],
+    links: [],
+    metrics: [
+      { label: 'projects.activeRealtyBot.metrics.menuItems', value: '5' },
+      { label: 'projects.activeRealtyBot.metrics.dbTables', value: '5' },
+      { label: 'projects.activeRealtyBot.metrics.escalations', value: '2' }
+    ]
+  },
+  {
     id: 'autoking',
     titleKey: 'projects.autoking.title',
     shortKey: 'projects.autoking.short',
