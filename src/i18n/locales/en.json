@@ -140,6 +140,16 @@
         "screens": "Screens",
         "modules": "Modules"
       }
+    },
+    "cryptoMiniapp": {
+      "title": "Crypto — Market Monitor",
+      "short": "Telegram Mini App for traders and enthusiasts: news parsing from CoinDesk, CoinTelegraph and CryptoSlate with AI summaries, top gainers and losers for 1h/24h/7d, Fear & Greed index, trading conditions analytics, watchlist with price alerts. Backend on FastAPI + Redis, frontend on React and Recharts.",
+      "role": "Full-stack developer",
+      "metrics": {
+        "coins": "Tracked coins",
+        "newsPerDay": "News per day",
+        "screens": "Screens"
+      }
     }
   }
 }

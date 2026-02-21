@@ -59,6 +59,19 @@ export const projects = [
       { label: 'projects.financeManager.metrics.screens', value: '13+' },
       { label: 'projects.financeManager.metrics.modules', value: '10+' }
     ]
+  },
+  {
+    id: 'crypto-miniapp',
+    titleKey: 'projects.cryptoMiniapp.title',
+    shortKey: 'projects.cryptoMiniapp.short',
+    roleKey: 'projects.cryptoMiniapp.role',
+    stack: ['projects.stack.react', 'projects.stack.typescript', 'projects.stack.vite', 'projects.stack.tailwind', 'projects.stack.python', 'projects.stack.aiogram', 'projects.stack.fastapi', 'projects.stack.redis', 'projects.stack.recharts'],
+    links: [],
+    metrics: [
+      { label: 'projects.cryptoMiniapp.metrics.coins', value: '50+' },
+      { label: 'projects.cryptoMiniapp.metrics.newsPerDay', value: '200+' },
+      { label: 'projects.cryptoMiniapp.metrics.screens', value: '8' }
+    ]
   }
 ] as const
 

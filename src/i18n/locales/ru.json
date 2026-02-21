@@ -140,6 +140,16 @@
         "screens": "Экранов",
         "modules": "Модулей"
       }
+    },
+    "cryptoMiniapp": {
+      "title": "Crypto — Мониторинг крипторынка",
+      "short": "Telegram Mini App для трейдеров и энтузиастов: парсинг новостей из CoinDesk, CoinTelegraph и CryptoSlate с AI-саммари, лидеры роста и падения за 1ч/24ч/7д, индекс Fear & Greed, аналитика торговых условий, watchlist с алертами по цене. Backend на FastAPI + Redis, фронт на React и Recharts.",
+      "role": "Full-stack разработчик",
+      "metrics": {
+        "coins": "Отслеживаемых монет",
+        "newsPerDay": "Новостей в день",
+        "screens": "Экранов"
+      }
     }
   }
 }
