@@ -2,7 +2,7 @@ ssh root@45.67.56.149
 GbK*tgVz4CQ*
 
 git add .
-git commit -m "Добавил новый проект и обновил текст О себе"
+git commit -m "Добавил новый проект сторис бот"
 git push
 
 scp -r ./dist/* root@45.67.56.149:/var/www/portfolio/
