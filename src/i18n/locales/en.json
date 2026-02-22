@@ -150,6 +150,16 @@
         "newsPerDay": "News per day",
         "screens": "Screens"
       }
+    },
+    "storiesBot": {
+      "title": "Story Keeper — anonymous story collection",
+      "short": "Telegram bot for anonymous story submission: FSM flow, text anonymization (phones, email, links), delivery to moderators in topic-based groups, menu with rules and PDF documents. Project «Million Untold Stories».",
+      "role": "Full-stack developer",
+      "metrics": {
+        "steps": "Steps in flow",
+        "anonymizedTypes": "Anonymization types",
+        "pdfDocs": "PDF documents"
+      }
     }
   }
 }

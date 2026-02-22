@@ -72,6 +72,19 @@ export const projects = [
       { label: 'projects.cryptoMiniapp.metrics.newsPerDay', value: '200+' },
       { label: 'projects.cryptoMiniapp.metrics.screens', value: '8' }
     ]
+  },
+  {
+    id: 'stories-bot',
+    titleKey: 'projects.storiesBot.title',
+    shortKey: 'projects.storiesBot.short',
+    roleKey: 'projects.storiesBot.role',
+    stack: ['projects.stack.python', 'projects.stack.aiogram'],
+    links: [],
+    metrics: [
+      { label: 'projects.storiesBot.metrics.steps', value: '6' },
+      { label: 'projects.storiesBot.metrics.anonymizedTypes', value: '4' },
+      { label: 'projects.storiesBot.metrics.pdfDocs', value: '3' }
+    ]
   }
 ] as const
 
